@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ARMOR_FOSSIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\ARMOR_FOSSIL.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BLUE_SHARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\BLUE_SHARD.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CLAW_FOSSIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\CLAW_FOSSIL.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CLAW_FOSSIL_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\CLAW_FOSSIL_1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CLAW_FOSSIL_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\CLAW_FOSSIL_2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CLAW_FOSSIL_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\CLAW_FOSSIL_3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DAMP_ROCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\DAMP_ROCK.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dirt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\dirt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DOME_FOSSIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\DOME_FOSSIL.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DRACO_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\DRACO_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DREAD_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\DREAD_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EARTH_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\EARTH_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EVERSTONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\EVERSTONE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FIRE_STONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\FIRE_STONE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FIST_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\FIST_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FLAME_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\FLAME_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GREEN_SHARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\GREEN_SHARD.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HARD_STONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\HARD_STONE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HEART_SCALE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\HEART_SCALE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HEAT_ROCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\HEAT_ROCK.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HELIX_FOSSIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\HELIX_FOSSIL.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HELIX_FOSSIL_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\HELIX_FOSSIL_1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICICLE_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\ICICLE_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICY_ROCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\ICY_ROCK.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INSECT_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\INSECT_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IRON_BALL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\IRON_BALL.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IRON_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\IRON_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LARGE_BLUE_SPHERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\LARGE_BLUE_SPHERE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LARGE_GREEN_SPHERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\LARGE_GREEN_SPHERE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LARGE_PALE_SPHERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\LARGE_PALE_SPHERE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LARGE_PRISM_SPHERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\LARGE_PRISM_SPHERE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LARGE_RED_SPHERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\LARGE_RED_SPHERE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEAF_STONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\LEAF_STONE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEAF_STONE_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\LEAF_STONE_1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIGHT_CLAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\LIGHT_CLAY.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAX_REVIVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\MAX_REVIVE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MEADOW_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\MEADOW_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MIND_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\MIND_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MOON_STONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\MOON_STONE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MOON_STONE_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\MOON_STONE_1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ODD_KEYSTONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\ODD_KEYSTONE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLD_AMBER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\OLD_AMBER.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLD_AMBER_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\OLD_AMBER_1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OVAL_STONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\OVAL_STONE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RARE_BONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\RARE_BONE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RARE_BONE_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\RARE_BONE_1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RED_SHARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\RED_SHARD.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="REVIVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\REVIVE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_C.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_E.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_F.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_H" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_H.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_I" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_I.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_J" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_J.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_K" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_K.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_N" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_N.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_O" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_O.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_P" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_P.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_Q.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_S" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_T.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_U" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_U.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_V.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\rock_W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ROOT_FOSSIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\ROOT_FOSSIL.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ROOT_FOSSIL_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\ROOT_FOSSIL_1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ROOT_FOSSIL_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\ROOT_FOSSIL_2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ROOT_FOSSIL_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\ROOT_FOSSIL_3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tiles\sand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SKULL_FOSSIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\SKULL_FOSSIL.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SKY_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\SKY_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMALL_BLUE_SPHERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\SMALL_BLUE_SPHERE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMALL_GREEN_SPHERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\SMALL_GREEN_SPHERE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMALL_PALE_SPHERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\SMALL_PALE_SPHERE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMALL_PRISM_SPHERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\SMALL_PRISM_SPHERE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMALL_RED_SPHERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\SMALL_RED_SPHERE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMOOTH_ROCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\SMOOTH_ROCK.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SPLASH_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\SPLASH_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SPOOKY_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\SPOOKY_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STAR_PIECE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\STAR_PIECE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STONE_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\STONE_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SUN_STONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\SUN_STONE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="THUNDER_STONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\THUNDER_STONE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOXIC_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\TOXIC_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WATER_STONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\WATER_STONE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YELLOW_SHARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\YELLOW_SHARD.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZAP_PLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprites\ZAP_PLATE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

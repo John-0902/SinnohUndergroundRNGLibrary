@@ -1,0 +1,1 @@
+Currently only Platinum is supported since looking for the version differences of Diamond and Pearl will take more time than expected.
