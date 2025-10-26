@@ -15,7 +15,7 @@ namespace SinnohUndergroundRNGLibrary.Util
         public uint Month { get; }
         public uint Year { get; }
 
-        public ulong UndergroundSeed { get => (Year << 26) + (Month << 22) + (Day << 17) + (Hour << 12) + (Minute << 6) + Second /* + frames */; }
+        public ulong UndergroundSeed { get => ((ulong)Year << 26) + ((ulong)Month << 22) + ((ulong)Day << 17) + ((ulong)Hour << 12) + ((ulong)Minute << 6) + Second /* + frames */; }
 
     private const int FRAME_PER_10000SEC = 598261;
         private const int SEC_PER_DAY = 86400;
